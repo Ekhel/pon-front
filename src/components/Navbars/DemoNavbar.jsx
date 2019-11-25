@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -58,7 +41,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={require("assets/img/brand/find-logo.png")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -165,6 +148,9 @@ class DemoNavbar extends React.Component {
                       </DropdownItem>
                       <DropdownItem to="/register-page" tag={Link}>
                         Register
+                      </DropdownItem>
+                      <DropdownItem to="/kota-page" tag={Link}>
+                        Kota
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
